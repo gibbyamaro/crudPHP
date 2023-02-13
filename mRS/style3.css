@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
+}
+
+body {
+    background-image: linear-gradient( to right , #F4FFDC , #DCF4FF , #FFDCF4 );
+    width: auto;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.2vh solid black;
+}
+
+.header {
+    font-family: 'Lobster', cursive;
+    position: relative;
+    left: 35%;
+    font-size: 5em;
+}
+
+.addHeader {
+    font-family: 'Lobster', cursive;
+    position: relative;
+    left: 38%;
+    font-size: 5em;
+}
+
+.upHeader {
+    font-family: 'Lobster', cursive;
+    position: relative;
+    left: 34%;
+    font-size: 5em;
+}
+
+.addBtn {
+    position: absolute;
+    top: 15%;
+    left: 42%;
+    margin: 0.5vh;
+    padding: 2.5vh;
+    border: solid 0.2vh black;
+    background-color: #F4FFDC;
+    text-decoration: none;
+    font-size: 2em;
+    color: black;
+}
+
+.createBtn {
+    position: absolute;
+    bottom: 15%;
+    left: 48%;
+    margin: 0.5vh;
+    padding: 2.5vh;
+    border: solid 0.2vh black;
+    background-color: #F4FFDC;
+    text-decoration: none;
+    font-size: 2em;
+    color: black;
+}
+
+.backBtn {
+    position: absolute;
+    bottom: 15%;
+    left: 38%;
+    margin: 0.5vh;
+    padding: 2.5vh;
+    border: solid 0.2vh black;
+    background-color: #FFDCF4;
+    text-decoration: none;
+    font-size: 2em;
+    color: black;
+}
+
+.backBtn2 {
+    position: absolute;
+    top: 18%;
+    left: 45%;
+    margin: 0.5vh;
+    padding: 2.5vh;
+    border: solid 0.2vh black;
+    background-color: #FFDCF4;
+    text-decoration: none;
+    font-size: 2em;
+    color: black;
+}
+
+.homeTable {
+    position: absolute;
+    top: 30%;
+    left: 3.5%;
+    text-align: center;
+    border: solid 0.2vh black;
+}
+
+.homeTable2 {
+    position: absolute;
+    top: 40%;
+    left: 16%;
+    text-align: center;
+    border: solid 0.2vh black;
+}
+
+.whtBc1 {
+    background-color: #DCF4FF;
+    padding: 3vh;
+    margin: 0vh;
+    font-size: 1.3em;
+    border: solid 0.2vh black;
+}
+
+.rBc {
+    background-color: #FFDCF4;
+    border: solid 0.2vh black;
+    font-size: 1.2em;
+    padding: 2vh;
+}
+
+.crud {
+    background-color: #FFDCF4;
+    border: solid 0.2vh black;
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 2vh;
+}
+
+.formContainer {
+    text-align: center;
+}
